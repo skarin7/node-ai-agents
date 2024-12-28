@@ -1,0 +1,59 @@
+{
+  "name": "Node Agents Project",
+  "version": 1,
+  "isActive": true,
+  "agents": [
+    {
+      "id": 1,
+      "name": "Agent A",
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "React"
+      ],
+      "experience": 5.5,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Agent B",
+      "skills": [
+        "Python",
+        "Django",
+        "Flask"
+      ],
+      "experience": 3.2,
+      "available": false
+    },
+    {
+      "id": 3,
+      "name": "Agent C",
+      "skills": [
+        "Java",
+        "Spring",
+        "Hibernate"
+      ],
+      "experience": 7.1,
+      "available": true
+    }
+  ],
+  "projects": [
+    {
+      "projectId": 101,
+      "projectName": "Project Alpha",
+      "budget": 100000.75,
+      "completed": false
+    },
+    {
+      "projectId": 102,
+      "projectName": "Project Beta",
+      "budget": 250000,
+      "completed": true
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": true,
+    "autoSaveInterval": 15.5
+  }
+}
